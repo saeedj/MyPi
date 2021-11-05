@@ -1,0 +1,37 @@
+{
+    "name": "nguyenhiep/tiny-html-minifier",
+    "description": "Minify HTML in PHP with just a single class",
+    "keywords": [
+        "minifier",
+        "minify",
+        "html"
+    ],
+    "version": "2.2",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jens Törnell",
+            "email": "webblayout@gmail.com",
+            "role": "Maintainer"
+        },
+        {
+            "name": "Nguyễn Văn Hiệp",
+            "email": "nguyenheipvan.bka@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/nguyenhiepvan/tiny-html-minifier",
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Nguyenhiep\\Minifier\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

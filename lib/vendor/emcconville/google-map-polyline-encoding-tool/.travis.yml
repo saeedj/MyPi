@@ -1,0 +1,16 @@
+language: php
+php:
+  - 7.1
+
+before_script:
+  - curl -s http://getcomposer.org/installer | php
+  - php composer.phar install --no-interaction
+
+script:
+  - mkdir -p build/cov
+  - php vendor/bin/phpunit -c phpunit.xml
+
+after_success:
+  - travis_retry php vendor/bin/php-coveralls
+
+

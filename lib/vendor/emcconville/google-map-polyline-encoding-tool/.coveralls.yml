@@ -1,0 +1,2 @@
+coverage_clover: build/cov/coverage.cov
+json_path: build/cov/coveralls-upload.json
